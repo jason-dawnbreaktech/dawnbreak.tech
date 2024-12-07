@@ -1,2 +1,2 @@
 # dawnbreak.tech
-Personal blog/consulting website. 
+My personal blog website. 
