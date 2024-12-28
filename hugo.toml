@@ -1,5 +1,15 @@
-baseURL = "https://example.com/"
+baseURL = "http://www.dawnbreak.tech"
+title = "dawnbreak.tech"
+theme = "poison"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
 
-[module]
-[module.hugoVersion]
-min = "0.124.0"
+
+[pagination]
+pagerSize = 6 
+
+[services]
+[services.disqus]
+# Enable Disqus comments
+# shortname = "yourdiscussshortname"
