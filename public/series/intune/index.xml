@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intune on dawnbreak.tech</title>
+    <link>http://localhost:1313/series/intune/</link>
+    <description>Recent content in Intune on dawnbreak.tech</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 29 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/series/intune/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Deploy (large) Applications via Intune</title>
+      <link>http://localhost:1313/posts/deploy-large-apps/</link>
+      <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/deploy-large-apps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Restoring the pre-W11 right click menu</title>
+      <link>http://localhost:1313/posts/restore-w11-context/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/restore-w11-context/</guid>
+      <description>&lt;h1 id=&#34;a-welcome-change-or-not&#34;&gt;&#xA;  A welcome change&amp;hellip; or not?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#a-welcome-change-or-not&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;In the following article, Microsoft described their mindset behind the context menu changes &lt;a href=&#34;https://blogs.windows.com/windowsdeveloper/2021/07/19/extending-the-context-menu-and-share-dialog-in-windows-11/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;To quote them directly:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;As useful as the Windows 10 context menu is, there are aspects of its design we sought to improve in Windows 11. The most common commands – cut, copy, paste, delete, and rename – are far from the mouse pointer, touch point, or pen.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
