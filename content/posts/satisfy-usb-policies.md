@@ -2,7 +2,7 @@
 authors = ["JC Alan"]
 title = "Satisfying "
 date = "2024-11-12"
-description = "Guide to restoring the pre-W11 right click context menu"
+description = "An Intune and Windows focused guide to satisfying two critical security standards regarding removable media."
 tags = [
     "Intune",
     "CMMC",
@@ -14,4 +14,5 @@ categories = [
     "Systems Administration"
 ]
 series = ["CMMC"]
+draft = true 
 +++

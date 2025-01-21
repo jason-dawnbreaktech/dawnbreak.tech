@@ -6,12 +6,12 @@
     <description>Recent content in SolidWorks on dawnbreak.tech</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/solidworks/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Restoring the Pre-W11 Right Click Context Menu</title>
+      <title>Patching the UNC file path issue in SolidWorks 2023 PDM SP5.0</title>
       <link>http://localhost:1313/posts/solidworks-file-patch/</link>
-      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/solidworks-file-patch/</guid>
       <description></description>
     </item>

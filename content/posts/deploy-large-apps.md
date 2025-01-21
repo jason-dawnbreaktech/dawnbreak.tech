@@ -1,8 +1,8 @@
 +++
 authors = ["JC Alan"]
-title = "How I Deploy (large) Applications via Intune"
+title = "Deploying large applications such as AutoCAD or Solidworks via Intune."
 date = "2024-12-29"
-description = "Guide to restoring the pre-W11 right click context menu"
+description = "A collection of tips and tricks that help"
 tags = [
     "Intune",
     "PowerShell",

@@ -59,6 +59,12 @@
     <loc>http://localhost:1313/categories/systems-administration/</loc>
     <lastmod>2024-11-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/solidworks-file-patch/</loc>
+    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/solidworks/</loc>
+    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/contact/</loc>
   </url>
 </urlset>
