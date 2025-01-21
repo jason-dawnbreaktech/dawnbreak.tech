@@ -6,6 +6,10 @@ aliases = ["about-us", "about-hugo", "contact"]
 author = "JC Alan"
 +++
 
-As an IT professional with nearly of a decade of experience in technology roles, I've touched and have been responsible for almost every piece of the stack, from development, to cybersecurity, systems administration, and much more. My CV boasts a track record of successful projects in corporate IT, including server upgrades and migrations, infrastructure overhauls, security audits, and custom cloud-engineered solutions. I'm deeply versed in cybersecurity practices, IAM, and industry security models, including NIST/CMMC guidelines. 
+Hey there! I’m an IT Systems Engineer and DevOps Wizard with nearly a decade of experience tinkering, building, and optimizing the tech stack from top to bottom. Whether it’s upgrading servers, engineering cloud solutions, or conducting security audits, I’ve been hands-on with just about every layer of IT.
 
-See my contact page if you'd like to reach out!
+My professional track record includes leading infrastructure overhauls, migrating critical systems, and delivering custom solutions tailored to meet modern security standards like NIST and CMMC. I’ve got a deep appreciation for cybersecurity, IAM, and keeping networks locked down tighter than a drum (when necessary!).
+
+Outside of work, I’ve been building computers for over 12 years and have a genuine passion for diving deep into systems engineering, automation, and, honestly, anything tech-related.
+
+If you’d like to chat or collaborate, hit me up on my Contact Page!
