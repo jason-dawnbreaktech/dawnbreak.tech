@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><script src="/dawnbreak.tech/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=dawnbreak.tech/livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <title>
   Restoring the Old Right Click Context Menu in Windows 11 · dawnbreak.tech
 </title>
@@ -22,7 +22,7 @@
   <meta name="twitter:title" content="Restoring the Old Right Click Context Menu in Windows 11">
   <meta name="twitter:description" content="Guide to restoring the pre-W11 right click context menu">
 
-<meta property="og:url" content="http://localhost:1313/dawnbreak.tech/posts/restore-w11-context/">
+<meta property="og:url" content="http://localhost:1313/posts/restore-w11-context/">
   <meta property="og:site_name" content="dawnbreak.tech">
   <meta property="og:title" content="Restoring the Old Right Click Context Menu in Windows 11">
   <meta property="og:description" content="Guide to restoring the pre-W11 right click context menu">
@@ -38,7 +38,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:1313/dawnbreak.tech/posts/restore-w11-context/">
+<link rel="canonical" href="http://localhost:1313/posts/restore-w11-context/">
 
 
 <link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -48,7 +48,7 @@
 
   
   
-  <link rel="stylesheet" href="/dawnbreak.tech/css/coder.css" media="screen">
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
 
 
 
@@ -58,7 +58,7 @@
   
     
     
-    <link rel="stylesheet" href="/dawnbreak.tech/css/coder-dark.css" media="screen">
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
   
 
 
@@ -69,8 +69,8 @@
 
 
 <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
-<link rel="icon" type="image/png" href="/dawnbreak.tech/images/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/dawnbreak.tech/images/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -106,7 +106,7 @@
     <nav class="navigation">
   <section class="container">
     
-    <a class="navigation-title" href="http://localhost:1313/dawnbreak.tech/">
+    <a class="navigation-title" href="http://localhost:1313/">
       dawnbreak.tech
     </a>
     
@@ -119,15 +119,15 @@
         
           
             <li class="navigation-item">
-              <a class="navigation-link " href="/dawnbreak.tech/about/">About</a>
+              <a class="navigation-link " href="/about/">About</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link " href="/dawnbreak.tech/posts/">Blog</a>
+              <a class="navigation-link " href="/posts/">Blog</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link " href="/dawnbreak.tech/contact/">Contact me</a>
+              <a class="navigation-link " href="/contact/">Contact me</a>
             </li>
           
         
@@ -145,7 +145,7 @@
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="http://localhost:1313/dawnbreak.tech/posts/restore-w11-context/">
+            <a class="title-link" href="http://localhost:1313/posts/restore-w11-context/">
               Restoring the Old Right Click Context Menu in Windows 11
             </a>
           </h1>
@@ -165,26 +165,26 @@
           </div>
           <div class="authors">
   <i class="fa-solid fa-user" aria-hidden="true"></i>
-    <a href="/dawnbreak.tech/authors/jc-alan/">JC Alan</a></div>
+    <a href="/authors/jc-alan/">JC Alan</a></div>
 
           <div class="categories">
   <i class="fa-solid fa-folder" aria-hidden="true"></i>
-    <a href="/dawnbreak.tech/categories/it/">IT</a>
+    <a href="/categories/it/">IT</a>
       <span class="separator">•</span>
-    <a href="/dawnbreak.tech/categories/systems-administration/">Systems Administration</a></div>
+    <a href="/categories/systems-administration/">Systems Administration</a></div>
 
           <div class="tags">
   <i class="fa-solid fa-tag" aria-hidden="true"></i>
     <span class="tag">
-      <a href="/dawnbreak.tech/tags/intune/">Intune</a>
+      <a href="/tags/intune/">Intune</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/dawnbreak.tech/tags/powershell/">PowerShell</a>
+      <a href="/tags/powershell/">PowerShell</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/dawnbreak.tech/tags/sysadmin/">SysAdmin</a>
+      <a href="/tags/sysadmin/">SysAdmin</a>
     </span></div>
 
         </div>
@@ -211,7 +211,7 @@
 <li>“Open” and “Open with” are grouped together.</li>
 </ul>
 <p>When considering this, and especially when taking into account a computer with many applications installed, the default menu can be overwhelming:</p>
-<p><img src="/dawnbreak.tech/images/w11-rightclick1.png" alt="RightClickMenu"></p>
+<p><img src="/images/w11-rightclick1.png" alt="RightClickMenu"></p>
 <p>It can also take much longer to load this classical context menu in Windows 11&rsquo;s redesigned file explorer (in this instance, upwards of 15-20 seconds). The logic behind the change is sound, but humans are creatures of habit, and these logical changes were paired with the idea to turn some of the most commonly used options (such as copy/paste) into symbols rather than text.</p>
 <p>If Windows 11 was your first ever Windows OS, this might be easier to pick up, but for any long time user of the operating system, this is a lot to change at once. Personally, I would have opted for a staged rollout and introduced the symbols at a later date.</p>
 <h3 id="identifying-the-registry-key--restoring-the-pre-windows-11-context-menu">
@@ -231,10 +231,10 @@
 </span></span><span style="display:flex;"><span>taskkill /f /im explorer.exe
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">start</span> explorer
-</span></span></code></pre></div><p><img src="/dawnbreak.tech/images/rightclick-cmd1.png" alt="CMD"></p>
+</span></span></code></pre></div><p><img src="/images/rightclick-cmd1.png" alt="CMD"></p>
 <p>Note that this will restart explorer to enact the change.</p>
 <p>Make sure that the value is an <strong>empty string</strong>, and not <strong>(value not set)</strong>.</p>
-<p><img src="/dawnbreak.tech/images/rightclick-registry1.png" alt="Registry"></p>
+<p><img src="/images/rightclick-registry1.png" alt="Registry"></p>
 <h1 id="for-the-system-administrators---intune-win32-application-deployment">
   For the System Administrators - Intune Win32 Application Deployment
   <a class="heading-link" href="#for-the-system-administrators---intune-win32-application-deployment">
@@ -268,7 +268,7 @@
 <li>I&rsquo;ve marked the uninstall as available for end users. This will allow the end users to undo this change if they decide to give in to Windows 11.</li>
 <li>The end result is a visually appealing option in the Company Portal for end users to engage with:</li>
 </ol>
-<p><img src="/dawnbreak.tech/images/comp-portal-1.png" alt="portal"></p>
+<p><img src="/images/comp-portal-1.png" alt="portal"></p>
 
       </div>
 
@@ -321,7 +321,7 @@
 
   
   
-  <script src="/dawnbreak.tech/js/coder.js"></script>
+  <script src="/js/coder.js"></script>
   
 
   
