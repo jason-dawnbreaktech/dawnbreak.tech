@@ -6,28 +6,14 @@
     <description>Recent content in PowerShell on dawnbreak.tech</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/dawnbreak.tech/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Deploying large applications such as AutoCAD or Solidworks via Intune.</title>
-      <link>http://localhost:1313/dawnbreak.tech/posts/deploy-large-apps/</link>
-      <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dawnbreak.tech/posts/deploy-large-apps/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Restoring the Old Right Click Context Menu in Windows 11</title>
       <link>http://localhost:1313/dawnbreak.tech/posts/restore-w11-context/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/dawnbreak.tech/posts/restore-w11-context/</guid>
       <description>&lt;h1 id=&#34;a-welcome-change-or-not&#34;&gt;&#xA;  A welcome change&amp;hellip; or not?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#a-welcome-change-or-not&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;tldr: if you just want to revert the right click menu, skip to the &amp;lsquo;Identifying the Registry Key&amp;rsquo; section&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the following article, Microsoft described their mindset behind the context menu changes &lt;a href=&#34;https://blogs.windows.com/windowsdeveloper/2021/07/19/extending-the-context-menu-and-share-dialog-in-windows-11/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;To quote them directly:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;As useful as the Windows 10 context menu is, there are aspects of its design we sought to improve in Windows 11. The most common commands – cut, copy, paste, delete, and rename – are far from the mouse pointer, touch point, or pen.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Patching the UNC file path issue in SolidWorks 2023 PDM SP5.0</title>
-      <link>http://localhost:1313/dawnbreak.tech/posts/solidworks-file-patch/</link>
-      <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dawnbreak.tech/posts/solidworks-file-patch/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

@@ -12,4 +12,5 @@ categories = [
     "IT"
 ]
 series = ["Intune"]
+draft = true
 +++

@@ -14,5 +14,5 @@ categories = [
     "Systems Administration"
 ]
 series = ["Intune"]
-#draft = true
+draft = true
 +++

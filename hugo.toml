@@ -16,8 +16,8 @@ pagerSize = 6
 
 [params] 
 faviconSVG = ""
-favicon_32 = "imgs/favicon-32x32.png"
-favicon_16 = "imgs/favicon-16x16.png"
+favicon_32 = "images/favicon-32x32.png"
+favicon_16 = "images/favicon-16x16.png"
 author = "JC Alan"
 description = "JC Alan's personal website"
 keywords = "blog,developer,personal"

@@ -31,7 +31,7 @@ The Windows 11 context menu addresses these problems in the following ways:
 
 When considering this, and especially when taking into account a computer with many applications installed, the default menu can be overwhelming:
 
-![RightClickMenu](/images/w11-rightclick1.png)
+![RightClickMenu](/dawnbreak.tech/images/w11-rightclick1.png)
 
 It can also take much longer to load this classical context menu in Windows 11's redesigned file explorer (in this instance, upwards of 15-20 seconds). The logic behind the change is sound, but humans are creatures of habit, and these logical changes were paired with the idea to turn some of the most commonly used options (such as copy/paste) into symbols rather than text. 
 
@@ -53,13 +53,13 @@ taskkill /f /im explorer.exe
 start explorer
 ```
 
-![CMD](/images/rightclick-cmd1.png)
+![CMD](/dawnbreak.tech/images/rightclick-cmd1.png)
 
 Note that this will restart explorer to enact the change. 
 
 Make sure that the value is an **empty string**, and not **(value not set)**. 
 
-![Registry](/images/rightclick-registry1.png)
+![Registry](/dawnbreak.tech/images/rightclick-registry1.png)
 
 
 
@@ -99,5 +99,5 @@ IntuneWinAppUtil.exe -c C:\path\to\w11-rightclick-w32 -s Restore-W10RightClick.p
 6. I've marked the uninstall as available for end users. This will allow the end users to undo this change if they decide to give in to Windows 11. 
 7. The end result is a visually appealing option in the Company Portal for end users to engage with:
 
-![portal](/images/comp-portal-1.png)
+![portal](/dawnbreak.tech/images/comp-portal-1.png)
 
