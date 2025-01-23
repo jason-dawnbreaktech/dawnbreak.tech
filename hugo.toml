@@ -1,4 +1,4 @@
-baseURL = "http://www.dawnbreak.tech"
+baseURL = "https://jason-dawnbreaktech.github.io/dawnbreak.tech/"
 title = "dawnbreak.tech"
 theme = "hugo-coder"
 languageCode = "en"

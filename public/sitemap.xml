@@ -2,69 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/about/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/authors/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/categories/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/deploy-large-apps/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/posts/deploy-large-apps/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/intune/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/tags/intune/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/intune/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/series/intune/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/it/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/categories/it/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/jc-alan/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/authors/jc-alan/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/posts/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/powershell/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/tags/powershell/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/series/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/sysadmin/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/tags/sysadmin/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/tags/</loc>
     <lastmod>2024-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cmmc/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/posts/restore-w11-context/</loc>
     <lastmod>2024-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/cmmc/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/categories/systems-administration/</loc>
     <lastmod>2024-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/restore-w11-context/</loc>
-    <lastmod>2024-11-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/satisfy-usb-policies/</loc>
-    <lastmod>2024-11-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/systems-administration/</loc>
-    <lastmod>2024-11-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/solidworks-file-patch/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/posts/solidworks-file-patch/</loc>
     <lastmod>2024-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/solidworks/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/tags/solidworks/</loc>
     <lastmod>2024-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/dawnbreak.tech/contact/</loc>
   </url>
 </urlset>
