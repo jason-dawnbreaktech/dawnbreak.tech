@@ -3,7 +3,7 @@
 
 <head><script src="/dawnbreak.tech/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=dawnbreak.tech/livereload" data-no-instant defer></script>
   <title>
-  Restoring the Pre-W11 Right Click Context Menu · dawnbreak.tech
+  Restoring the Old Right Click Context Menu in Windows 11 · dawnbreak.tech
 </title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,12 +19,12 @@
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Restoring the Pre-W11 Right Click Context Menu">
+  <meta name="twitter:title" content="Restoring the Old Right Click Context Menu in Windows 11">
   <meta name="twitter:description" content="Guide to restoring the pre-W11 right click context menu">
 
 <meta property="og:url" content="http://localhost:1313/dawnbreak.tech/posts/restore-w11-context/">
   <meta property="og:site_name" content="dawnbreak.tech">
-  <meta property="og:title" content="Restoring the Pre-W11 Right Click Context Menu">
+  <meta property="og:title" content="Restoring the Old Right Click Context Menu in Windows 11">
   <meta property="og:description" content="Guide to restoring the pre-W11 right click context menu">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
@@ -148,7 +148,7 @@
         <div class="post-title">
           <h1 class="title">
             <a class="title-link" href="http://localhost:1313/dawnbreak.tech/posts/restore-w11-context/">
-              Restoring the Pre-W11 Right Click Context Menu
+              Restoring the Old Right Click Context Menu in Windows 11
             </a>
           </h1>
         </div>
@@ -216,9 +216,9 @@
 <p><img src="/images/w11-rightclick1.png" alt="RightClickMenu"></p>
 <p>It can also take much longer to load this classical context menu in Windows 11&rsquo;s redesigned file explorer (in this instance, upwards of 15-20 seconds). The logic behind the change is sound, but humans are creatures of habit, and these logical changes were paired with the idea to turn some of the most commonly used options (such as copy/paste) into symbols rather than text.</p>
 <p>If Windows 11 was your first ever Windows OS, this might be easier to pick up, but for any long time user of the operating system, this is a lot to change at once. Personally, I would have opted for a staged rollout and introduced the symbols at a later date.</p>
-<h3 id="identifying-the-registry-key">
-  Identifying the Registry Key
-  <a class="heading-link" href="#identifying-the-registry-key">
+<h3 id="identifying-the-registry-key--restoring-the-pre-windows-11-context-menu">
+  Identifying the Registry Key &amp; Restoring the Pre Windows 11 Context Menu
+  <a class="heading-link" href="#identifying-the-registry-key--restoring-the-pre-windows-11-context-menu">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
@@ -237,37 +237,40 @@
 <p>Note that this will restart explorer to enact the change.</p>
 <p>Make sure that the value is an <strong>empty string</strong>, and not <strong>(value not set)</strong>.</p>
 <p><img src="/images/rightclick-registry1.png" alt="Registry"></p>
-<h1 id="for-the-system-administrators">
-  For the System Administrators
-  <a class="heading-link" href="#for-the-system-administrators">
+<h1 id="for-the-system-administrators---intune-win32-application-deployment">
+  For the System Administrators - Intune Win32 Application Deployment
+  <a class="heading-link" href="#for-the-system-administrators---intune-win32-application-deployment">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h1>
-<p>Recently, I took over an environment which was stuck in the past,  with antiquated systems in too many places. As part of a larger initiative to modernize the environment, and for various compliance reasons, we upgraded all of our end users to Windows 11 . Of course, the end user complaints about the new right click context menu were numerous. I wanted to give my users a way to revert the change easily, so I decided to create a Win32 package that would add this registry key. This accomplished a few things:</p>
+<p>Recently, I took over an environment which had a lot of catching up to do. As part of a larger initiative to modernize the environment, and for various compliance reasons, we upgraded all of our end users to Windows 11 . Of course, the end user complaints about the new right click context menu were loud and heard. I wanted to give my users a way to revert the change easily, so I decided to create a Win32 package that would add this registry key. This accomplished a few things:</p>
 <ul>
 <li>It made the change optional, and users could turn it on whenever they pleased.</li>
 <li>It gave us a way to administratively undo the change if, for whatever reason, this registry key caused issues down the road.</li>
 <li>It drove adoption of the <strong>Company Portal</strong>, which I had been pushing with limited success.</li>
 </ul>
-<p>See the following GitHub repo for an assortment of PowerShell scripts that will accomplish the above steps. To build a Win32 package for deployment via the company portal:</p>
+<p>To build a Win32 package for deployment via the company portal:</p>
 <ol>
-<li>Clone the repo.</li>
-<li>Use the IntuneWinAppUtil to package the directory.</li>
-<li>Upload the .intunewin file to Intune with the following <code>install</code> command:</li>
+<li>Clone my <a href="https://github.com/jason-dawnbreaktech/w11-rightclick-w32"  class="external-link" target="_blank" rel="noopener">GitHub Repository</a>.</li>
+<li>Use the <a href="https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool"  class="external-link" target="_blank" rel="noopener">IntuneWinAppUtil</a> to package the directory.</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cmd" data-lang="cmd"><span style="display:flex;"><span>powershell -ex bypass -file .\Restore-W10RightClick.ps1
-</span></span></code></pre></div><ol start="4">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cmd" data-lang="cmd"><span style="display:flex;"><span>IntuneWinAppUtil.exe -c C:\path\to\w11-rightclick-w32 -s Restore-W10RightClick.ps1 -o .
+</span></span></code></pre></div><ol start="3">
+<li>Upload the .intunewin file to Intune with the following installation commands:</li>
+</ol>
+<p><strong>Install command:</strong></p>
+<pre tabindex="0"><code class="language-CMD" data-lang="CMD">%SystemRoot%\sysnative\WindowsPowerShell\v1.0\powershell.exe -ex bypass -file .\Restore-W10RightClick.ps1
+</code></pre><p><strong>Uninstall command:</strong></p>
+<pre tabindex="0"><code>%SystemRoot%\sysnative\WindowsPowerShell\v1.0\powershell.exe -ex bypass -file .\Restore-W11RightClick.ps1
+</code></pre><p><strong>Note:</strong> Win32 packages run in a 32 bit cmd instance by default. To work around this, the above commands call the 64 bit PowerShell executable from sysnative and passes the script through to it as an argument. <a href="https://call4cloud.nl/sysnative-64-bit-ime-intune-syswow64-wow6432node/"  class="external-link" target="_blank" rel="noopener">Rudy Oomps has a great article about this</a> that I recommend any Intune admin read.</p>
+<ol start="4">
 <li>Set the installation package to run in the <strong>user</strong> context.</li>
-<li>For the detection method, use the registry key.</li>
-<li>I&rsquo;ve marked the uninstall as available for end users. An important note about Intune uninstall commands: <strong>they always run as system, regardless of the context set during the install phase</strong>. This is problematic for the &lsquo;uninstall&rsquo; of this change, as the key exists in the current user hive, which can&rsquo;t be directly referenced from the NT System Authority context.</li>
-<li>To solve this, use the following uninstall command:</li>
+<li>For the detection method, use a <strong>custom detection script</strong>, and select the script <code>detection.ps1</code> from the repository.</li>
+<li>I&rsquo;ve marked the uninstall as available for end users. This will allow the end users to undo this change if they decide to give in to Windows 11.</li>
+<li>The end result is a visually appealing option in the Company Portal for end users to engage with:</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cmd" data-lang="cmd"><span style="display:flex;"><span>powershell -ex bypass -file .\Restore-W11RightClick-Intune.ps1
-</span></span></code></pre></div><ol start="8">
-<li>The above script iterates through <em>all</em> of the keys in the HKEY_USERS hive and deletes the registry key if it exists. This avoids the &lsquo;HKCU&rsquo; issue, but note that the command will restore the default W11 right click context menu for <strong>all users</strong> on the system.</li>
-<li>The end result is a visually appealing option in the Company Portal for end users to engage with.</li>
-</ol>
+<p><img src="/images/comp-portal-1.png" alt="portal"></p>
 
       </div>
 
